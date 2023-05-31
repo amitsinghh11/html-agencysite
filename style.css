@@ -1,0 +1,139 @@
+.body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+  position: relative;
+}
+.main{
+  flex: 1;
+  background-color: #F9FBE7;
+  position: relative;
+}
+
+header{
+  font-size: 2rem;
+  font-weight: 500;
+  color: yellowgreen;
+  background-color: #F9FBE7;
+
+}
+h1 {
+  font-size: 5rem;
+  color: gold;
+  background-color: #F9FBE7;
+}
+
+.description{
+  font-size: 4rem;
+  background-color: #F9FBE7;
+}
+
+.title-image{
+  height: 200px;
+  float: left;
+  margin-right: 50px;
+  background-color: #F9FBE7;
+}
+
+.left-card{
+  float: left;
+  width: 45%;
+  background-color: #F9FBE7;
+}
+
+.right-card{
+  float: right;
+  width: 45%;
+  background-color: #F9FBE7;
+}
+
+.top-rightbox{
+  float: right;
+  background-color: #F9FBE7;
+  position: relative;
+  margin-top: 10px;
+}
+
+.profile-pic{
+ float: right;
+  height: 50px;
+  background-color: #F9FBE7;
+  margin-right: 20px;
+  margin-top: 20px;
+  border-radius: 50%;
+  }
+
+@media(max-width:680px){
+  h1{
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .left-card{
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .right-card{
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .title-image{
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+
+  .description{
+    margin-bottom: 30px;
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
+
+  header{
+    margin-top: 30px;
+    margin-left: 50px;
+    text-align: center;
+    display: block;
+  }
+
+  .top-rightbox{
+    margin-top: 20px;
+    display: block;
+    text-align: right;
+    position: relative;
+  }
+
+  .body{
+    background-color: #F9FBE7;
+  }
+
+ 
+}
+
+.creative{
+  color: blueviolet;
+}
+
+html{
+  background-color: #F9FBE7;
+}
+
+
+
+footer {
+  text-align: right;
+  color: midnightblue;
+  background-color: #F9FBE7;
+}
+
